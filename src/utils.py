@@ -43,7 +43,6 @@ def evaluate_models(X_train, y_train,X_test,y_test,models,param):
             # ** = “Take all key-value pairs from a dictionary and pass them as named parameters.”
             # If gs.best_params_ is: {"max_depth": 10, "n_estimators": 200}
             # eg python does model.set_params(max_depth=10, n_estimators=200)
-            #model.fit(X_train, y_train)  # Train model
 
             y_train_pred = model.predict(X_train)
 
@@ -67,3 +66,12 @@ def load_object(file_path):
 
     except Exception as e:
         raise CustomException(e,sys)
+
+# dill lets you save Python objects to a file and load them back later.
+# pickle can serialize many objects, but it fails on more complex ones.
+# dill can serialize almost anything in Python.
+#This is commonly used to load:
+#Trained ML models
+#Preprocessing pipelines
+#Encoders / scalers
+
