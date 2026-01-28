@@ -7,7 +7,11 @@ __pycache__/
 venv3/
 .env
 .gitignore
-Artifacts/
+.env
+.gitignore
+artifacts/*
+!artifacts/model.pkl
+!artifacts/preprocessor.pkl
 logs/
 
 # C extensions
