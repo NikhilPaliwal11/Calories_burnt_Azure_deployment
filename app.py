@@ -4,7 +4,9 @@ import pandas as pd
 from src.pipeline.predict_pipeline import CustomData
 from src.pipeline.predict_pipeline import PredictPipeline
 
-app = Flask(__name__)
+application=Flask(__name__)
+
+app=application
 # Flask(__name__) it will gives us the entry point where we need to execute it
 # Flask(__name__) tells Flask where the application is located so it can find templates, static files, and resources correctly.
 
@@ -38,8 +40,9 @@ def predict():
         calories=result
     )
 
-if __name__ == "__main__":
-    app.run(host= "0.0.0.0")
+if __name__=="__main__":      
+    app.run(host="0.0.0.0",port=80)      
+    
 
 '''
 Render template: It connects your backend logic with your frontend page.
