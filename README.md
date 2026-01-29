@@ -56,7 +56,11 @@ The project follows modular coding practices and covers the complete ML lifecycl
 <img width="1618" height="848" alt="ml_azure_predict_cal" src="https://github.com/user-attachments/assets/46d83c03-4cdf-42d8-83e4-51e54e3fa481" />
 
 - Gif Video
-https://github.com/user-attachments/assets/db2ad665-0797-43a2-81fd-17e95757cd2e
+
+
+https://github.com/user-attachments/assets/340dcc6a-78c5-42bb-b238-31c1d620fe34
+
+
 
 
 
